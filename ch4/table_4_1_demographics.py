@@ -24,7 +24,7 @@ MAJOR_LABEL = {
 }
 YEAR_LABEL = {
     1: "Honours 1st", 2: "Honours 2nd",
-    3: "Honours 3rd", 4: "Honours 4th+",
+    3: "Honours 3rd", 4: "Honours 4th",
     5: "Master's",
 }
 
