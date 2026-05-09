@@ -17,8 +17,8 @@ PLATFORMS = [
     ('B1.1_3_Instagram',  'Instagram'),
     ('B1.1_7_TikTok',     'TikTok'),
     ('B1.1_5_Telegram',   'Telegram'),
-    ('B1.1_8_LinkedIn',   'LinkedIn'),
     ('B1.1_2_X',          'X (Twitter)'),
+    ('B1.1_8_LinkedIn',   'LinkedIn'),
     ('B1.1_9_Snapchat',   'Snapchat'),
     ('B1.1_10_Reddit',    'Reddit'),
 ]
