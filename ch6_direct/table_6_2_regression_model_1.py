@@ -6,11 +6,10 @@ PURPOSE     : Fit Multiple Regression Model 1 with no covariates.
 OUTPUT      : Table 6.2 - Regression Model 1 (Without Controls)
 HYPOTHESIS  : H1 (baseline test)
 THESIS REF  : Chapter 6, Section 6.3.1, Examining Direct Relationships
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : Ordinary Least Squares (OLS) regression.
               Formula: engagement ~ tech_total
 DEPENDENCIES: pandas, numpy, statsmodels
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
