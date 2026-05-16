@@ -7,11 +7,10 @@ PURPOSE     : Compute the Pearson correlation matrix among the
 OUTPUT      : Table 6.1 - Pearson Correlation Matrix
 HYPOTHESIS  : H1 (preliminary, descriptive support)
 THESIS REF  : Chapter 6, Section 6.2, Examining Direct Relationships
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : Pearson product-moment correlation; two-tailed t-test
               for significance; Fisher z-transform for 95% CI.
 DEPENDENCIES: pandas, numpy, scipy (or pingouin)
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
