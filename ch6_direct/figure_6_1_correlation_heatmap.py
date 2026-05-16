@@ -7,11 +7,10 @@ PURPOSE     : Produce a 4x4 correlation heatmap of tech_total,
 OUTPUT      : Figure 6.1 - Correlation Heatmap
 HYPOTHESIS  : H1 (visual support)
 THESIS REF  : Chapter 6, Section 6.2, Examining Direct Relationships
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : Pearson correlation; matplotlib imshow with a custom
               diverging colormap (red -> white -> deep ocean).
 DEPENDENCIES: pandas, numpy, matplotlib
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
