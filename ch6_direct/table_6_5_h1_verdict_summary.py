@@ -7,12 +7,11 @@ PURPOSE     : Compile the four decision criteria for Hypothesis 1
 OUTPUT      : Table 6.5 - Hypothesis 1 Verdict Summary
 HYPOTHESIS  : H1 (final verdict)
 THESIS REF  : Chapter 6, Section 6.6, Verdict on Hypothesis 1
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : Compares zero-order r, standardized beta, p-value,
               and 95% CI of tech_total across Models 1 and 2;
               applies the "CI excludes 0 = significant" rule.
 DEPENDENCIES: pandas, numpy, scipy, statsmodels
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
