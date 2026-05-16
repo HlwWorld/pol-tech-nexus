@@ -7,11 +7,10 @@ PURPOSE     : Produce a normal Q-Q plot of standardized residuals
 OUTPUT      : Figure 6.3 - Q-Q Plot for Normality Assessment
 HYPOTHESIS  : H1 (assumption-checking)
 THESIS REF  : Chapter 6, Section 6.4, Regression Diagnostics
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : Studentized internal residuals; theoretical normal
               quantiles via scipy.stats.probplot.
 DEPENDENCIES: pandas, numpy, matplotlib, statsmodels, scipy
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
