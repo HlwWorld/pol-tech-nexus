@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 import statsmodels.formula.api as smf
 from statsmodels.nonparametric.smoothers_lowess import lowess
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_cleaned.csv")
 df = df.replace(-99, float("nan"))
 
 DEEP, ORANGE, RED, WHITE = "#0B3D5B", "#F4A261", "#C0392B", "#FFFFFF"
