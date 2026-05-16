@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 import statsmodels.formula.api as smf
 from scipy import stats
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_cleaned.csv")
 df = df.replace(-99, float("nan"))
 
 DEEP, ORANGE, WHITE = "#0B3D5B", "#F4A261", "#FFFFFF"
