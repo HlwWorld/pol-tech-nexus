@@ -6,12 +6,11 @@ PURPOSE     : Fit Multiple Regression Model 2 with demographic
 OUTPUT      : Table 6.3 - Regression Model 2 (With Controls)
 HYPOTHESIS  : H1 (controlled test)
 THESIS REF  : Chapter 6, Section 6.3.2, Examining Direct Relationships
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : Ordinary Least Squares (OLS) regression.
               Formula: engagement ~ tech_total + A6_Age
                                    + C(A5_Gender) + C(A4_Major)
 DEPENDENCIES: pandas, numpy, statsmodels
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
