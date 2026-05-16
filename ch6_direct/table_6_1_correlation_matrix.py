@@ -20,7 +20,7 @@ import pandas as pd
 import numpy as np
 from scipy import stats
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_cleaned.csv")
 df = df.replace(-99, float("nan"))  # valid-skip -> NaN for analysis
 
 VARS = ["tech_total", "engagement", "internal_eff", "external_eff"]
