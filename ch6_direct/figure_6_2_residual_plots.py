@@ -7,12 +7,11 @@ PURPOSE     : Produce Residuals vs. Fitted (Panel A) and
 OUTPUT      : Figure 6.2 - Regression Residual Plots
 HYPOTHESIS  : H1 (assumption-checking)
 THESIS REF  : Chapter 6, Section 6.4, Regression Diagnostics
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : OLS regression (statsmodels); residuals and
               standardized residuals plotted with a LOWESS
               smoother.
 DEPENDENCIES: pandas, numpy, matplotlib, statsmodels
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
