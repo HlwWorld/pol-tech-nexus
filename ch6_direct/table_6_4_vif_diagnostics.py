@@ -8,12 +8,11 @@ PURPOSE     : Compute Variance Inflation Factor (VIF) for each
 OUTPUT      : Table 6.4 - Multicollinearity Diagnostics (VIF)
 HYPOTHESIS  : H1 (assumption-checking)
 THESIS REF  : Chapter 6, Section 6.4, Regression Diagnostics
-INPUT       : data.csv (n = 472)
+INPUT       : data_cleaned.csv (n = 472)
 METHOD      : VIF via auxiliary regressions (statsmodels);
               Shapiro-Wilk (scipy); Breusch-Pagan, Durbin-Watson
               (statsmodels).
 DEPENDENCIES: pandas, numpy, statsmodels, scipy
-AUTHOR      : H.M. Khalid Mahmud
 ================================================================
 Copyright (c) 2026. All rights reserved.
 Academic use only; explicit written permission required for reuse.
