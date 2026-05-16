@@ -27,7 +27,7 @@ from statsmodels.stats.diagnostic import het_breuschpagan
 from statsmodels.stats.stattools import durbin_watson
 from scipy import stats
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_cleaned.csv")
 df = df.replace(-99, float("nan"))
 
 formula = (
