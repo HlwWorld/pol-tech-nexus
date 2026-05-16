@@ -21,7 +21,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_cleaned.csv")
 df = df.replace(-99, float("nan"))
 
 DEEP, RED, WHITE, NEAR_K = "#0B3D5B", "#C0392B", "#FFFFFF", "#1A1A1A"
