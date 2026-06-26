@@ -87,8 +87,8 @@ par = pg.mediation_analysis(
     x="tech_total", m=["internal_eff", "external_eff"], y="engagement",
     covar=covar, n_boot=N_BOOT, seed=SEED,
 )
-ind_int = par.loc[par["path"] == "Indirect internal_eff", ["coef", "CI[2.5%]", "CI[97.5%]"]]
-ind_ext = par.loc[par["path"] == "Indirect external_eff", ["coef", "CI[2.5%]", "CI[97.5%]"]]
+ind_int = par.loc[par["path"] == "Indirect internal_eff", ["coef", "CI2.5", "CI97.5"]]
+ind_ext = par.loc[par["path"] == "Indirect external_eff", ["coef", "CI2.5", "CI97.5"]]
 direct = par.loc[par["path"] == "Direct", ["coef", "pval"]]
 h2_verdict = "Supported (partial mediation)"
 
@@ -112,7 +112,7 @@ anova_rows = {}
 for dv in ["tech_total", "internal_eff", "external_eff", "engagement"]:
     aov = pg.anova(data=df, dv=dv, between="A2_Type", detailed=True)
     F = float(aov.loc[0, "F"])
-    p = float(aov.loc[0, "p-unc"])
+    p = float(aov.loc[0, "p_unc"])
     eta = float(aov.loc[0, "np2"]) if "np2" in aov.columns else float(
         aov.loc[0, "SS"] / (aov.loc[0, "SS"] + aov.loc[1, "SS"]))
     anova_rows[dv] = (F, p, eta)
