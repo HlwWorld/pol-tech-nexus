@@ -23,7 +23,7 @@ THESIS REFERENCE:
     Chapter 9, Section 9.2, Summary of Findings
 
 INPUT:
-    data.csv
+    data_cleaned.csv
 
 METHOD:
     OLS regression (statsmodels); parallel and single-mediator
@@ -52,7 +52,7 @@ N_BOOT = 5000
 # ----------------------------------------------------------------
 # Load and prepare data
 # ----------------------------------------------------------------
-df = pd.read_csv("data.csv")
+df = pd.read_csv("data_cleaned.csv")
 df = df.replace(-99, float("nan"))   # valid skip -> NaN for analysis
 
 # Convenience recodes used as covariates throughout the thesis
